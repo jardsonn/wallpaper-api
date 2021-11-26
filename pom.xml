@@ -14,7 +14,7 @@
     <name>wallpaper api</name>
     <description>Wallpaper API retorna todos os papeis de paredes do site https://hdqwalls.com</description>
     <properties>
-        <java.version>8</java.version>
+        <java.version>16</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -49,8 +49,8 @@
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
-                    <source>9</source>
-                    <target>9</target>
+                    <source>16</source>
+                    <target>16</target>
                 </configuration>
             </plugin>
         </plugins>
