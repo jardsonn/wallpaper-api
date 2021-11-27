@@ -77,6 +77,10 @@ public class WallpapersService {
         return allWallpapers(URL_BASE + PARAMS_BY_PAGE, pageNumber);
     }
 
+    public List<Wallpapers> getWallpapersCategoryByPage(String categoryName, int pageNumber) {
+        return allWallpapers(URL_BASE + PARAMS_CATEGORY+categoryName+"/page/", pageNumber);
+    }
+
     public List<Wallpapers> getPopularWallpapersByPage(int pageNumber) {
         return allWallpapers(URL_BASE + PARAMS_POPULAR_PAGE, pageNumber);
     }

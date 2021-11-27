@@ -25,13 +25,15 @@ public class Utils {
                 conn = Jsoup.connect(url).timeout(5000);
             }
             else if (url.contains(PARAMS_BY_PAGE)) {
-                conn = Jsoup.connect(url + PARAMS_BY_PAGE + acion).timeout(5000);
+                conn = Jsoup.connect(url + acion).timeout(5000);
             }
             else if (url.contains(PARAMS_RANDOM)) {
                 conn = Jsoup.connect(url + acion).timeout(5000);
             }else if (url.contains(PARAMS_POPULAR)) {
                 conn = Jsoup.connect(url + acion).timeout(5000);
             } else if (url.contains(PARAMS_POPULAR_PAGE)) {
+                conn = Jsoup.connect(url + acion).timeout(5000);
+            }else if (url.contains(PARAMS_CATEGORY)) {
                 conn = Jsoup.connect(url + acion).timeout(5000);
             } else {
                 conn = Jsoup.connect(url).timeout(5000);
