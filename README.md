@@ -1,6 +1,6 @@
 ## Wallpaper API
 
-Essa API vai retorná os papeis de paredes do site `https://hdqwalls.com/`.
+Essa API vai retornar os papeis de paredes do site `https://hdqwalls.com/`.
 
 ### URL Base:
 
